@@ -1,0 +1,150 @@
+div.box1{
+    text-align: center;
+    
+}
+div.tiktok{
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: monospace;
+    height: 100px;
+    width: 100px;
+    box-shadow: 2px 2px 3px black;
+    margin: 8px;
+     display: inline-block;
+     transition: 0.3s;
+     cursor :pointer;
+     
+}
+i{
+    font-size: 50px;
+    margin: 13px;
+    
+}
+h4{
+    margin: 0%;
+}
+div.github{  
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: monospace;
+    height: 100px;
+    width: 100px;
+    box-shadow: 2px 2px 3px black;
+    margin: 8px;
+    display: inline-block;
+}
+div.youtube{    
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: monospace;
+    height: 100px;
+    width: 100px;
+    box-shadow: 2px 2px 3px black;
+    margin: 8px;
+    display: inline-block;
+}
+div.box2{
+    text-align: center;
+}
+div.Instagram{
+    
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: monospace;
+    height: 100px;
+    width: 100px;
+    box-shadow: 2px 2px 3px black;
+    margin: 8px;
+    display: inline-block;
+
+}
+div.Facebook{    
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: monospace;
+    height: 100px;
+    width: 100px;
+    box-shadow: 2px 2px 3px black;
+    margin: 8px;
+    display: inline-block;
+}
+div.Twitter{
+    
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: monospace;
+    height: 100px;
+    width: 100px;
+    box-shadow: 2px 2px 3px black;
+    margin: 8px;
+    display: inline-block;
+
+}
+div.box3{
+    text-align: center;
+}
+div.snapchat{
+    
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: monospace;
+    height: 100px;
+    width: 100px;
+    box-shadow: 2px 2px 3px black;
+    margin: 8px;
+    display: inline-block;
+
+}
+div.message{
+    
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: monospace;
+    height: 100px;
+    width: 100px;
+    box-shadow: 2px 2px 3px black;
+    margin: 8px;
+    display: inline-block;
+
+}
+div.call{
+    
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: monospace;
+    height: 100px;
+    width: 100px;
+    box-shadow: 2px 2px 3px black;
+    margin: 8px;
+    display: inline-block;
+
+}
+
+div.bigbox{
+    background-image: linear-gradient(to bottom right,rgb(160, 159, 159),black);
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px gray;
+    width: 400px;
+    margin: 20px auto;
+    padding: 100px;
+    border-radius: 10px;
+    display: flex;
+    
+}
+
+
+div.tiktok:hover{
+    background-image: linear-gradient(to bottom right,red,rgb(0, 225, 255) ,black);
+    transform: scale(1.1);
+    border: 2px solid ;
+    border-color: red rgb(0, 225, 255) black black;
+}
