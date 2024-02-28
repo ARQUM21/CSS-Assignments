@@ -1,0 +1,766 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+h4{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Protest Riot', sans-serif;
+}
+
+
+.biparent{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.f1{
+    flex-direction: column;
+    display: flex;
+    transition: .2s;
+}
+.f1 > img{
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+    
+}
+.f1 > span{
+    font-family: monospace;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5px;
+}
+.f1:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.f1 >span:hover{
+    text-decoration: underline;
+}
+.f1 >img:hover{
+    box-shadow:  2px 2px 10px 2px gray;
+}
+
+
+.f2{
+    flex-direction: column;
+    display: flex;
+    transition: .2s;
+}
+.f2 > img{
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+    
+}
+.f2 > span{
+    font-family: monospace;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5px;
+}
+.f2:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.f2 >span:hover{
+    text-decoration: underline;
+}
+.f2 >img:hover{
+    box-shadow:  2px 2px 10px 2px gray;
+}
+
+
+.f3{
+    flex-direction: column;
+    display: flex;
+    transition: .2s;
+}
+.f3 > img{
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+}
+.f3 > span{
+    font-family: monospace;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5px;
+}
+.f3:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.f3 >span:hover{
+    text-decoration: underline;
+}
+.f3 >img:hover{
+    box-shadow:  2px 2px 10px 2px gray;
+}
+
+
+.f4{
+    flex-direction: column;
+    display: flex;
+    transition: .2s;
+}
+.f4 > img{
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+}
+.f4 > span{
+    font-family: monospace;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5px;
+}
+.f4:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.f4 >span:hover{
+    text-decoration: underline;
+}
+.f4 >img:hover{
+    box-shadow:  2px 2px 10px 2px gray;
+}
+
+
+.f5{
+    flex-direction: column;
+    display: flex;
+    transition: .2s;
+}
+.f5 > img{
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+}
+.f5 > span{
+    font-family: monospace;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5px;
+}
+.f5:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.f5 >span:hover{
+    text-decoration: underline;
+}
+.f5 >img:hover{
+    box-shadow:  2px 2px 10px 2px gray;
+}
+
+
+.f6{
+    flex-direction: column;
+    display: flex;
+    transition: .2s;
+}
+.f6 > img{
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+}
+.f6 > span{
+    font-family: monospace;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5px;
+}
+.f6:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.f6 >span:hover{
+    text-decoration: underline;
+}
+.f6 >img:hover{
+    box-shadow:  2px 2px 10px 2px gray;
+}
+
+
+
+
+
+.parent{
+   display: flex;
+   justify-content: center;
+   gap: 10px;
+   flex-wrap: wrap;
+}
+.first{
+    flex-direction: column;
+    display: flex;
+    border: 1px solid white;
+    border-radius: 12px;
+    overflow: hidden;
+    padding: 5px;
+}
+.first:hover{
+    box-shadow: 1px 5px 5px gray;
+}
+.first > span{
+    text-align: center;
+    margin-top: 1px;
+}
+
+
+.second{
+    flex-direction: column;
+    display: flex;
+    border: 1px solid white;
+    border-radius: 12px;
+    overflow: hidden;
+    padding: 5px;
+}
+.second:hover{
+    box-shadow: 1px 5px 5px gray;
+}
+.second > span{
+    text-align: center;
+    margin-top: 1px;
+}
+
+
+.third{
+    flex-direction: column;
+    display: flex;
+    border: 1px solid white;
+    border-radius: 12px;
+    overflow: hidden;
+    padding: 5px;
+}
+.third:hover{
+    box-shadow: 1px 5px 5px gray;
+}
+.third > span{
+    text-align: center;
+    margin-top: 1px;
+}
+
+
+.four{
+    flex-direction: column;
+    display: flex;
+    border: 1px solid white;
+    border-radius: 12px;
+    overflow: hidden;
+    padding: 5px;
+}
+.four:hover{
+    box-shadow: 1px 5px 5px gray;
+}
+.four > span{
+    text-align: center;
+    margin-top: 1px;
+}
+
+
+.five{
+    flex-direction: column;
+    display: flex;
+    border: 1px solid white;
+    border-radius: 12px;
+    overflow: hidden;
+    padding: 5px;
+}
+.five:hover{
+    box-shadow: 1px 5px 5px gray;
+}
+.five > span{
+    text-align: center;
+    margin-top: 1px;
+}
+
+
+.six{
+    flex-direction: column;
+    display: flex;
+    border: 1px solid white;
+    border-radius: 12px;
+    overflow: hidden;
+    padding: 5px;
+}
+.six:hover{
+    box-shadow: 1px 5px 5px gray;
+}
+.six > span{
+    text-align: center;
+    margin-top: 1px;
+}
+
+
+.sev{
+    flex-direction: column;
+    display: flex;
+    border: 1px solid white;
+    border-radius: 12px;
+    overflow: hidden;
+    padding: 5px;
+}
+.sev:hover{
+    box-shadow: 1px 5px 5px gray;
+}
+.sev > span{
+    text-align: center;
+    margin-top: 1px;
+}
+
+
+.eight{
+    flex-direction: column;
+    display: flex;
+    border: 1px solid white;
+    border-radius: 12px;
+    overflow: hidden;
+    padding: 5px;
+}
+.eight:hover{
+    box-shadow: 1px 5px 5px gray;
+}
+.eight > span{
+    text-align: center;
+    margin-top: 1px;
+}
+
+
+.nine{
+    flex-direction: column;
+    display: flex;
+    border: 1px solid white;
+    border-radius: 12px;
+    overflow: hidden;
+    padding: 5px;
+}
+.nine:hover{
+    box-shadow: 1px 5px 5px gray;
+}
+.nine > span{
+    text-align: center;
+    margin-top: 1px;
+}
+
+
+.ten{
+    flex-direction: column;
+    display: flex;
+    border: 1px solid white;
+    border-radius: 12px;
+    overflow: hidden;
+    padding: 5px;
+}
+.ten:hover{
+    box-shadow: 1px 5px 5px gray;
+}
+.ten > span{
+    text-align: center;
+    margin-top: 1px;
+}
+
+
+.ele{
+    flex-direction: column;
+    display: flex;
+    border: 1px solid white;
+    border-radius: 12px;
+    overflow: hidden;
+    padding: 5px;
+}
+.ele:hover{
+    box-shadow: 1px 5px 5px gray;
+}
+.ele > span{
+    text-align: center;
+    margin-top: 1px;
+}
+
+
+.tew{
+    flex-direction: column;
+    display: flex;
+    border: 1px solid white;
+    border-radius: 12px;
+    overflow: hidden;
+    padding: 5px;
+}
+.tew:hover{
+    box-shadow: 1px 5px 5px gray;
+}
+.tew > span{
+    text-align: center;
+    margin-top: 1px;
+}
+
+
+.im1{
+    height: 200px;
+    width: 180px;
+    border-radius: 12px;
+}
+.im2{
+    height: 200px;
+    width: 180px;
+    border-radius: 12px;
+}
+.im3{
+    height: 200px;
+    width: 180px;
+    border-radius: 12px;
+}
+.im4{
+    height: 200px;
+    width: 180px;
+    border-radius: 12px;
+}
+.im5{
+    height: 200px;
+    width: 180px;
+    border-radius: 12px;
+}
+.im6{
+    height: 200px;
+    width: 180px;
+    border-radius: 12px;
+}
+.im7{
+    height: 200px;
+    width: 180px;
+    border-radius: 12px;
+}
+.im8{
+    height: 200px;
+    width: 180px;
+    border-radius: 12px;
+}
+.im9{
+    height: 200px;
+    width: 180px;
+    border-radius: 12px;
+}
+.im10{
+    height: 200px;
+    width: 180px;
+    border-radius: 12px;
+}
+.im11{
+    height: 200px;
+    width: 180px;
+    border-radius: 12px;
+}
+.im12{
+    height: 200px;
+    width: 180px;
+    border-radius: 12px;
+}
+
+
+
+ @media (min-width:0px) and (max-width:900px){
+   
+    .parent{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        flex-direction: column;
+        margin-left: 5px;
+    }
+    .first{
+        flex-direction: row;
+        display: flex;
+        border: 1px solid rgb(214, 214, 214);
+        border-radius: 12px;
+        overflow: hidden;
+        padding: 5px;
+        align-items: center;
+        width: 700px;
+    }
+    .im1{
+        height: 50px;
+        width: 60px;
+        border-top-left-radius: 12px;
+        border-bottom-left-radius: 12px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+    .first > span{
+        text-align: center;
+        margin-left: 5px;
+    }
+ 
+
+    .second{
+        flex-direction: row;
+        display: flex;
+        border: 1px solid rgb(214, 214, 214);
+        border-radius: 12px;
+        overflow: hidden;
+        padding: 5px;
+        align-items: center;
+        width: 700px;
+        
+    }
+    .im2{
+        height: 50px;
+        width: 60px;
+        border-top-left-radius: 12px;
+        border-bottom-left-radius: 12px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+    .second > span{
+        text-align: center;
+        margin-left: 5px;
+    }
+
+
+    .third{
+        flex-direction: row;
+        display: flex;
+        border: 1px solid rgb(214, 214, 214);
+        border-radius: 12px;
+        overflow: hidden;
+        padding: 5px;
+        align-items: center;
+        width: 700px;
+    } 
+    .im3{
+        height: 50px;
+        width: 60px;
+        border-top-left-radius: 12px;
+        border-bottom-left-radius: 12px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+    .third > span{
+        text-align: center;
+        margin-left: 5px;
+    }
+
+
+    .four{
+        flex-direction: row;
+        display: flex;
+        border: 1px solid rgb(214, 214, 214);
+        border-radius: 12px;
+        overflow: hidden;
+        padding: 5px;
+        align-items: center;
+        width: 700px;
+    }
+    .im4{
+        height: 50px;
+        width: 60px;
+        border-top-left-radius: 12px;
+        border-bottom-left-radius: 12px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+    .four > span{
+        text-align: center;
+        margin-left: 5px;
+    }
+    
+    
+    .five{
+        flex-direction: row;
+        display: flex;
+        border: 1px solid rgb(214, 214, 214);
+        border-radius: 12px;
+        overflow: hidden;
+        padding: 5px;
+        align-items: center;
+        width: 700px;
+    }
+    .im5{
+        height: 50px;
+        width: 60px;
+        border-top-left-radius: 12px;
+        border-bottom-left-radius: 12px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+    .five > span{
+        text-align: center;
+        margin-left: 5px;
+    }
+    
+    
+    .six{
+        flex-direction: row;
+        display: flex;
+        border: 1px solid rgb(214, 214, 214);
+        border-radius: 12px;
+        overflow: hidden;
+        padding: 5px;
+        align-items: center;
+        width: 700px;
+    }
+    .im6{
+        height: 50px;
+        width: 60px;
+        border-top-left-radius: 12px;
+        border-bottom-left-radius: 12px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+    .six > span{
+        text-align: center;
+        margin-left: 5px;
+    }
+    
+    
+    .sev{
+        flex-direction: row;
+        display: flex;
+        border: 1px solid rgb(214, 214, 214);
+        border-radius: 12px;
+        overflow: hidden;
+        padding: 5px;
+        align-items: center;
+        width: 700px;
+    }
+    .im7{
+        height: 50px;
+        width: 60px;
+        border-top-left-radius: 12px;
+        border-bottom-left-radius: 12px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+    .sev > span{
+        text-align: center;
+        margin-left: 5px;
+    }
+    
+    
+    .eight{
+        flex-direction: row;
+        display: flex;
+        border: 1px solid rgb(214, 214, 214);
+        border-radius: 12px;
+        overflow: hidden;
+        padding: 5px;
+        align-items: center;
+        width: 700px;
+    }
+    .im8{
+        height: 50px;
+        width: 60px;
+        border-top-left-radius: 12px;
+        border-bottom-left-radius: 12px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+    .eight > span{
+        text-align: center;
+        margin-left: 5px;
+    }
+    
+    
+    .nine{
+        flex-direction: row;
+        display: flex;
+        border: 1px solid rgb(214, 214, 214);
+        border-radius: 12px;
+        overflow: hidden;
+        padding: 5px;
+        align-items: center;
+        width: 700px;
+    }
+    .im9{
+        height: 50px;
+        width: 60px;
+        border-top-left-radius: 12px;
+        border-bottom-left-radius: 12px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+    .nine > span{
+        text-align: center;
+        margin-left: 5px;
+    }
+    
+    
+    .ten{
+        flex-direction: row;
+        display: flex;
+        border: 1px solid rgb(214, 214, 214);
+        border-radius: 12px;
+        overflow: hidden;
+        padding: 5px;
+        align-items: center;
+        width: 700px;
+    }
+    .im10{
+        height: 50px;
+        width: 60px;
+        border-top-left-radius: 12px;
+        border-bottom-left-radius: 12px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+    .ten > span{
+        text-align: center;
+        margin-left: 5px;
+    }
+    
+    
+    .ele{
+        flex-direction: row;
+        display: flex;
+        border: 1px solid rgb(214, 214, 214);
+        border-radius: 12px;
+        overflow: hidden;
+        padding: 5px;
+        align-items: center;
+        width: 700px;
+        
+    }
+    .im11{
+        height: 50px;
+        width: 60px;
+        border-top-left-radius: 12px;
+        border-bottom-left-radius: 12px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+    .ele > span{
+        text-align: center;
+        margin-left: 5px;
+    } 
+
+
+    .tew{
+        flex-direction: row;
+        display: flex;
+        border: 1px solid rgb(214, 214, 214);
+        border-radius: 12px;
+        overflow: hidden;
+        padding: 5px;
+        align-items: center;
+        width: 700px;
+    }
+    .im12{
+        height: 50px;
+        width: 60px;
+        border-top-left-radius: 12px;
+        border-bottom-left-radius: 12px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+    .tew > span{
+        text-align: center;
+        margin-left: 5px;
+    } 
+}
+
+
+ 

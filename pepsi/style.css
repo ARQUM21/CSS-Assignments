@@ -1,0 +1,172 @@
+.imgoc{
+    height: 5%;
+    width: 50px;
+}
+/* .tt > a{
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+}
+.tt{
+    align-content: end;
+    align-items: end;
+} */
+.navbar-text{
+    border: 5px solid white;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+    border: bold; 
+}
+.pp{
+   margin: 0%;
+   padding: 0%;
+    width: 100%;
+    height: auto;
+}
+.ar{
+    position: relative !important;
+   flex-wrap: wrap;
+}
+.rp{
+    background-color: aliceblue;
+    color: black;
+    font-weight: bold; 
+    padding: 20px;  
+    bottom:50px ;
+    width: 400px;
+    text-align: center;
+    
+    font-size: 50px;
+    
+}
+.rp:hover{
+    background-color: blue;
+    color: aliceblue;
+}
+@media (max-width:500px){
+    .rp{background-color: aliceblue;
+    color: black;
+    font-weight: bold; 
+    font-size: 16px;
+    text-align: center;
+    bottom:30px ;
+    width: 150px;
+    
+}
+.rp:hover{background-color: blue;
+    color: aliceblue;
+
+}
+}
+@media (max-width:250px){
+ .rp{background-color: aliceblue;
+    color: black;
+    font-weight: bold; 
+    font-size: 10px;
+    text-align: center;
+    bottom:15px ;
+    width: 80px;
+    height: 20px;
+    padding: 3px;
+}
+.rp:hover{background-color: blue;
+    color: aliceblue;
+
+}
+ }
+
+
+ .bq{
+    width: 100%;
+    height: auto;
+    position: relative;
+ }
+ .sp{
+    color:azure;
+    top: 80px;
+    text-align: center;
+    font-size: 50px;
+    
+      
+    
+ }
+ 
+  
+ .um{
+    position: relative;
+   
+ }
+.qwe{
+    width: 500px;
+    height: 400px;
+    margin-right: 80px;
+}
+.asd{
+    height: 400px;
+    width: 500px;
+    
+} 
+
+.arqum{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+}
+.ar2{
+    justify-content: center;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+.ar3{
+    height: 200px;
+    width: 200px;
+    border: 2px solid blue;
+    
+}
+.tariq{
+    width: 100%;
+    height: 350px;
+    background-color: blue;
+}
+@media (max-width:900px){
+    .ar3{
+        height: 100px;
+        width: 100px;
+        border: 2px solid blue;
+        
+    }
+    .arqum{
+        width: 100%;
+        height: 300px;
+        background-color: black;
+    }
+    .ar4{
+        margin-top: 30px;
+    }
+}
+@media (max-width:550px){
+    .ar3{
+        height: 50px;
+        width: 50px;
+        border: 2px solid blue;
+        
+    }
+    .arqum{
+        width: 100%;
+        height: 300px;
+        background-color: black;
+    }
+    .ar4{
+        margin-top: 60px;
+    }
+
+}
+
+.footer__social-container{
+    display: flex;
+}
+
+
