@@ -130,7 +130,10 @@ div.call{
 }
 
 div.bigbox{
-    background-image: linear-gradient(to bottom right,rgb(160, 159, 159),black);
+    background: linear-gradient(45deg, #d2001a, #7462ff, #f48e21, #23d5ab);
+     background-size: 300% 300%;
+     animation: color 12s ease-in-out infinite;
+    /* background-image: linear-gradient(to bottom right,rgb(160, 159, 159),black); */
     border: 1px solid black;
     box-shadow: 5px 5px 5px gray;
     width: 400px;
@@ -140,11 +143,16 @@ div.bigbox{
     display: flex;
     
 }
-
-
-div.tiktok:hover{
-    background-image: linear-gradient(to bottom right,red,rgb(0, 225, 255) ,black);
-    transform: scale(1.1);
-    border: 2px solid ;
-    border-color: red rgb(0, 225, 255) black black;
+@keyframes color{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
 }
+
+
